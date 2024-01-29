@@ -15,14 +15,14 @@ namespace c_sharp_net_frmwrk_h
             while (nastavi)
             {
                 Console.WriteLine("\nOdabir zadatka:\n");
-                Console.WriteLine("1. Prvi zadatak (HelloWorld)");
-                Console.WriteLine("2. Drugi zadatak (Varijable_uvod)");
-                Console.WriteLine("3. Treći zadatak (Varijable_brojevi)");
-                Console.WriteLine("4. Četvrti zadatak (Unos_podataka_osobniPodaci)");
-                Console.WriteLine("5. Peti zadatak (Varijable_pravokutnik)");
-                Console.WriteLine("6. Šesti zadatak (Varijable_zamjene)");
-                Console.WriteLine("7. Sedmi zadatak (Boolean_I_Operatori)");
-                Console.WriteLine("8. Osmi zadatak (Kontrola_Toka)");
+                Console.WriteLine("1. Zadatak (HelloWorld)");
+                Console.WriteLine("2. Zadatak (Varijable_uvod)");
+                Console.WriteLine("3. Zadatak (Varijable_brojevi)");
+                Console.WriteLine("4. Zadatak (Unos_podataka_osobniPodaci)");
+                Console.WriteLine("5. Zadatak (Varijable_pravokutnik)");
+                Console.WriteLine("6. Zadatak (Varijable_zamjene)");
+                Console.WriteLine("7. Zadatak (Boolean_I_Operatori)");
+                Console.WriteLine("8. Zadatak (Kontrola_Toka)");
                 Console.WriteLine("z1. Zadaca 1 (IzracunOdGodine)");
                 Console.WriteLine("z2. Zadaca 2 (ms_u_kmh_i_mph)");
                 Console.WriteLine("z3. Zadaca 3 (longuInt)");
