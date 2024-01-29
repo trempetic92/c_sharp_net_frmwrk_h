@@ -22,6 +22,7 @@ namespace c_sharp_net_frmwrk_h
                 Console.WriteLine("5. Peti zadatak (Varijable_pravokutnik)");
                 Console.WriteLine("6. Šesti zadatak (Varijable_zamjene)");
                 Console.WriteLine("7. Sedmi zadatak (Boolean_I_Operatori)");
+                Console.WriteLine("8. Osmi zadatak (Kontrola_Toka)");
                 Console.WriteLine("z1. Zadaca 1 (IzracunOdGodine)");
                 Console.WriteLine("z2. Zadaca 2 (ms_u_kmh_i_mph)");
                 Console.WriteLine("z3. Zadaca 3 (longuInt)");
@@ -32,25 +33,28 @@ namespace c_sharp_net_frmwrk_h
                 switch (odabir)
                 {
                     case "1":
-                        PrviZadatak.ispisi_HelloWorld();
+                        Zadatak1.ispisi_HelloWorld();
                         break;
                     case "2":
-                        DrugiZadatak.Varijable_uvod();
+                        Zadatak2.Varijable_uvod();
                         break;
                     case "3":
-                        TreciZadatak.Varijable_brojevi();
+                        Zadatak3.Varijable_brojevi();
                         break;
                     case "4":
-                        CetvrtiZadatak.OsobniPodaciUnos();
+                        Zadatak4.OsobniPodaciUnos();
                         break;
                     case "5":
-                        PetiZadatak.Pravokutnik();
+                        Zadatak5.Pravokutnik();
                         break;
                     case "6":
-                        SestiZadatak.VarijablaZamjena();
+                        Zadatak6.VarijablaZamjena();
                         break;
                     case "7":
-                        SedmiZadatak.BooleanIIoeratori();
+                        Zadatak7.BooleanIIoeratori();
+                        break;
+                    case "8":
+                        Zadatak8.KontrolaToka();
                         break;
                     case "z1":
                         Zadaca1.IzracunDoGodine();

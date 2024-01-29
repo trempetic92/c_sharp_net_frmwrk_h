@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace c_sharp_net_frmwrk_h
 {
-    internal class PetiZadatak
+    internal class Zadatak5
     {
         public static void Pravokutnik()
         {

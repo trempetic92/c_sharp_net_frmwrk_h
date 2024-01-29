@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace c_sharp_net_frmwrk_h
 {
-    internal class PrviZadatak
+    internal class Zadatak1
     {
         public static void ispisi_HelloWorld() 
         {

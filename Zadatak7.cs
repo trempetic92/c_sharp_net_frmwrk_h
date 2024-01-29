@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace c_sharp_net_frmwrk_h
 {
-    internal class SedmiZadatak
+    internal class Zadatak7
     {
         public static void BooleanIIoeratori()
         {

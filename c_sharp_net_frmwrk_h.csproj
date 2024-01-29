@@ -43,18 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CetvrtiZadatak.cs" />
-    <Compile Include="DrugiZadatak.cs" />
-    <Compile Include="PetiZadatak.cs" />
-    <Compile Include="PrviZadatak.cs" />
+    <Compile Include="Zadatak4.cs" />
+    <Compile Include="Zadatak2.cs" />
+    <Compile Include="Zadatak8.cs" />
+    <Compile Include="Zadatak5.cs" />
+    <Compile Include="Zadatak1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SestiZadatak.cs" />
-    <Compile Include="TreciZadatak.cs" />
+    <Compile Include="Zadatak6.cs" />
+    <Compile Include="Zadatak3.cs" />
     <Compile Include="Zadaca1.cs" />
     <Compile Include="Zadaca2.cs" />
     <Compile Include="Zadaca3.cs" />
-    <Compile Include="SedmiZadatak.cs" />
+    <Compile Include="Zadatak7.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

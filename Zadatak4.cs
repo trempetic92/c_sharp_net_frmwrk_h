@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace c_sharp_net_frmwrk_h
 {
-    internal class CetvrtiZadatak
+    internal class Zadatak4
     {
         public static void OsobniPodaciUnos()
         {

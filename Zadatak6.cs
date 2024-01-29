@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace c_sharp_net_frmwrk_h
 {
-    internal class SestiZadatak
+    internal class Zadatak6
     {
         public static void VarijablaZamjena()
         {

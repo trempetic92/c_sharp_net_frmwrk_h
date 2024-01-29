@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace c_sharp_net_frmwrk_h
 {
-    internal class DrugiZadatak
+    internal class Zadatak2
     {
         public static void Varijable_uvod()
         {
