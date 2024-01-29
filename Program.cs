@@ -26,9 +26,10 @@ namespace c_sharp_net_frmwrk_h
                 Console.WriteLine("z1. Zadaca 1 (IzracunOdGodine)");
                 Console.WriteLine("z2. Zadaca 2 (ms_u_kmh_i_mph)");
                 Console.WriteLine("z3. Zadaca 3 (longuInt)");
-                Console.WriteLine("0. Izlaz");
+                Console.WriteLine("0. Izlaz\n\n");
 
                 string odabir = Console.ReadLine();
+                Console.WriteLine();
 
                 switch (odabir)
                 {

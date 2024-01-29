@@ -20,6 +20,36 @@ namespace c_sharp_net_frmwrk_h
                 Console.WriteLine("Vrijeme je Sunny");
             }
 
+            Console.WriteLine("if else...");
+
+            if (vrijeme == "sunny")
+            {
+                Console.WriteLine("Vrijeme je sunny");
+            }
+            else
+            {
+                Console.WriteLine("Vrijeme nije sunny");
+            }
+
+            Console.WriteLine("Nested if...");
+
+            vrijeme = "oblacno";
+            bool kisaPada = false;
+
+            if (vrijeme == "oblacno")
+            {
+                if (!kisaPada)
+                {
+                    Console.WriteLine("Ipak možemo na kupanje");
+                }
+                else 
+                { 
+                    Console.WriteLine("Nemožemo na kupanje"); 
+                }
+            }
+
+
+
         }
     }
 }
