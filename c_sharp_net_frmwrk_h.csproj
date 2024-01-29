@@ -53,6 +53,8 @@
     <Compile Include="TreciZadatak.cs" />
     <Compile Include="Zadaca1.cs" />
     <Compile Include="Zadaca2.cs" />
+    <Compile Include="Zadaca3.cs" />
+    <Compile Include="SedmiZadatak.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

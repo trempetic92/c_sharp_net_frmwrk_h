@@ -21,8 +21,10 @@ namespace c_sharp_net_frmwrk_h
                 Console.WriteLine("4. Četvrti zadatak (Unos_podataka_osobniPodaci)");
                 Console.WriteLine("5. Peti zadatak (Varijable_pravokutnik)");
                 Console.WriteLine("6. Šesti zadatak (Varijable_zamjene)");
+                Console.WriteLine("7. Sedmi zadatak (Boolean_I_Operatori)");
                 Console.WriteLine("z1. Zadaca 1 (IzracunOdGodine)");
                 Console.WriteLine("z2. Zadaca 2 (ms_u_kmh_i_mph)");
+                Console.WriteLine("z3. Zadaca 3 (longuInt)");
                 Console.WriteLine("0. Izlaz");
 
                 string odabir = Console.ReadLine();
@@ -47,11 +49,17 @@ namespace c_sharp_net_frmwrk_h
                     case "6":
                         SestiZadatak.VarijablaZamjena();
                         break;
+                    case "7":
+                        SedmiZadatak.BooleanIIoeratori();
+                        break;
                     case "z1":
                         Zadaca1.IzracunDoGodine();
                         break;
                     case "z2":
                         Zadaca2.Izracun_kmh_mph();
+                        break;
+                    case "z3":
+                        Zadaca3.longuint();
                         break;
                     case "0":
                         nastavi = false;
