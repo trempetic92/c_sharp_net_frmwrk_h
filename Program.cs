@@ -82,6 +82,9 @@ namespace c_sharp_net_frmwrk_h
                     case "z3":
                         Zadaca3.longuint();
                         break;
+                    case "z4":
+                        Zadaca4.zadaca4();
+                        break;
                     case "0":
                         nastavi = false;
                         break;
