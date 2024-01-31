@@ -27,6 +27,7 @@ namespace c_sharp_net_frmwrk_h
                 Console.WriteLine("10. Zadatak10 (if_korijen_jednadzbe)");
                 Console.WriteLine("11. Zadatak11 (if_profit)");
                 Console.WriteLine("12. Zadatak12 (Natjecanje)");
+                Console.WriteLine("13. Zadatak13 (switchcase)");
                 Console.WriteLine("z1. Zadaca 1 (IzracunOdGodine)");
                 Console.WriteLine("z2. Zadaca 2 (ms_u_kmh_i_mph)");
                 Console.WriteLine("z3. Zadaca 3 (longuInt)");
@@ -72,6 +73,9 @@ namespace c_sharp_net_frmwrk_h
                         break;
                     case "12":
                         Zadatak12.Natjecanje();
+                        break;
+                    case "13":
+                        Zadatak13.switchcase();
                         break;
                     case "z1":
                         Zadaca1.IzracunDoGodine();
