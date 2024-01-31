@@ -23,6 +23,8 @@ namespace c_sharp_net_frmwrk_h
                 Console.WriteLine("6. Zadatak (Varijable_zamjene)");
                 Console.WriteLine("7. Zadatak (Boolean_I_Operatori)");
                 Console.WriteLine("8. Zadatak (Kontrola_Toka)");
+                Console.WriteLine("9. Zadatak9");
+                Console.WriteLine("10. Zadatak10");
                 Console.WriteLine("z1. Zadaca 1 (IzracunOdGodine)");
                 Console.WriteLine("z2. Zadaca 2 (ms_u_kmh_i_mph)");
                 Console.WriteLine("z3. Zadaca 3 (longuInt)");
@@ -56,6 +58,18 @@ namespace c_sharp_net_frmwrk_h
                         break;
                     case "8":
                         Zadatak8.KontrolaToka();
+                        break;
+                    case "9":
+                        Zadatak9.if_skracenice();
+                        break;
+                    case "10":
+                        Zadatak10.if_korijen_jednadzbe();
+                        break;
+                    case "11":
+                        Zadatak11.if_profit();
+                        break;
+                    case "12":
+                        Zadatak12.Natjecanje();
                         break;
                     case "z1":
                         Zadaca1.IzracunDoGodine();

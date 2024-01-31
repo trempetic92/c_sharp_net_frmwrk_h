@@ -58,7 +58,7 @@ namespace c_sharp_net_frmwrk_h
             {
                 Console.WriteLine("x > y");
             }
-            else if (x == y) 
+            else if (x == y)
             {
                 Console.WriteLine("x == y");
             }
@@ -67,7 +67,22 @@ namespace c_sharp_net_frmwrk_h
                 Console.WriteLine("x < y");
             }
 
+            Console.WriteLine("Ternarni");
 
+            string xVeciOdy = (x > y) ? "X je veći od Y" : "X nije veći od Y";
+            bool veciOd = (x > y) ? true : false;
+
+            Console.WriteLine(xVeciOdy);
+            Console.WriteLine(veciOd);
+
+            string odnosiXY = (x > y) ? "X je veći od Y" :((x<y) ? "x je manji od y":"x i y su jednaki");
+
+            bool a = true;
+            bool b = true;
+            bool c = false;
+
+            bool result = a && b && c;
+            Console.WriteLine(result);
         }
     }
 }
