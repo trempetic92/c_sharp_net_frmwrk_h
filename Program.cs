@@ -23,8 +23,10 @@ namespace c_sharp_net_frmwrk_h
                 Console.WriteLine("6. Zadatak (Varijable_zamjene)");
                 Console.WriteLine("7. Zadatak (Boolean_I_Operatori)");
                 Console.WriteLine("8. Zadatak (Kontrola_Toka)");
-                Console.WriteLine("9. Zadatak9");
-                Console.WriteLine("10. Zadatak10");
+                Console.WriteLine("9. Zadatak9 (if_skracenice)");
+                Console.WriteLine("10. Zadatak10 (if_korijen_jednadzbe)");
+                Console.WriteLine("11. Zadatak11 (if_profit)");
+                Console.WriteLine("12. Zadatak12 (Natjecanje)");
                 Console.WriteLine("z1. Zadaca 1 (IzracunOdGodine)");
                 Console.WriteLine("z2. Zadaca 2 (ms_u_kmh_i_mph)");
                 Console.WriteLine("z3. Zadaca 3 (longuInt)");
