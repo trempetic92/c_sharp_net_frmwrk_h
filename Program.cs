@@ -9,6 +9,8 @@ namespace c_sharp_net_frmwrk_h
 {
     internal class Program
     {
+
+
         static void Main(string[] args)
         {
             bool nastavi = true;
@@ -28,9 +30,13 @@ namespace c_sharp_net_frmwrk_h
                 Console.WriteLine("11. Zadatak11 (if_profit)");
                 Console.WriteLine("12. Zadatak12 (Natjecanje)");
                 Console.WriteLine("13. Zadatak13 (switchcase)");
+                Console.WriteLine("14. Zadatak13 (samoglasnici)");
+                Console.WriteLine("15. Zadatak13 (enumeratori)");
                 Console.WriteLine("z1. Zadaca 1 (IzracunOdGodine)");
                 Console.WriteLine("z2. Zadaca 2 (ms_u_kmh_i_mph)");
                 Console.WriteLine("z3. Zadaca 3 (longuInt)");
+                Console.WriteLine("z4. Zadaca 4 (longuInt)");
+                Console.WriteLine("z5. Zadaca 5 (longuInt)");
                 Console.WriteLine("0. Izlaz\n\n");
 
                 string odabir = Console.ReadLine();
@@ -77,6 +83,12 @@ namespace c_sharp_net_frmwrk_h
                     case "13":
                         Zadatak13.switchcase();
                         break;
+                    case "14":
+                        Zadatak14.samoglasnici();
+                        break;
+                    case "15":
+                        Zadatak15.enumeratorStringa();
+                        break;
                     case "z1":
                         Zadaca1.IzracunDoGodine();
                         break;
@@ -88,6 +100,9 @@ namespace c_sharp_net_frmwrk_h
                         break;
                     case "z4":
                         Zadaca4.zadaca4();
+                        break;
+                    case "z5":
+                        Zadaca5.zadaca5();
                         break;
                     case "0":
                         nastavi = false;

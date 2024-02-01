@@ -43,11 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Zadaca5.cs" />
+    <Compile Include="Zadatak15.cs" />
     <Compile Include="Zadaca4.cs" />
     <Compile Include="Zadatak10.cs" />
     <Compile Include="Zadatak11.cs" />
     <Compile Include="Zadatak12.cs" />
     <Compile Include="Zadatak13.cs" />
+    <Compile Include="Zadatak14.cs" />
     <Compile Include="Zadatak4.cs" />
     <Compile Include="Zadatak2.cs" />
     <Compile Include="Zadatak8.cs" />
