@@ -32,6 +32,8 @@ namespace c_sharp_net_frmwrk_h
                 Console.WriteLine("13. Zadatak13 (switchcase)");
                 Console.WriteLine("14. Zadatak13 (samoglasnici)");
                 Console.WriteLine("15. Zadatak13 (enumeratori)");
+                Console.WriteLine("16. Zadatak13 (tekstualni tipovi)");
+                Console.WriteLine("17. Zadatak13 (nizovi)");
                 Console.WriteLine("z1. Zadaca 1 (IzracunOdGodine)");
                 Console.WriteLine("z2. Zadaca 2 (ms_u_kmh_i_mph)");
                 Console.WriteLine("z3. Zadaca 3 (longuInt)");
@@ -88,6 +90,12 @@ namespace c_sharp_net_frmwrk_h
                         break;
                     case "15":
                         Zadatak15.enumeratorStringa();
+                        break;
+                    case "16":
+                        Zadatak16.tekstualni_tipovi();
+                        break;
+                    case "17":
+                        Zadatak17.nizovi();
                         break;
                     case "z1":
                         Zadaca1.IzracunDoGodine();

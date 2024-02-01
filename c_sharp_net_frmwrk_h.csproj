@@ -51,6 +51,8 @@
     <Compile Include="Zadatak12.cs" />
     <Compile Include="Zadatak13.cs" />
     <Compile Include="Zadatak14.cs" />
+    <Compile Include="Zadatak16.cs" />
+    <Compile Include="Zadatak17.cs" />
     <Compile Include="Zadatak4.cs" />
     <Compile Include="Zadatak2.cs" />
     <Compile Include="Zadatak8.cs" />
