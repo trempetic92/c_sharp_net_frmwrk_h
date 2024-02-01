@@ -48,9 +48,10 @@ namespace c_sharp_net_frmwrk_h
             else
             {
                 Console.WriteLine("Nije dozvoljen upis.\n");
+                Console.WriteLine("-------------------------------------------\n");
+                Console.WriteLine("Kriteriji koji nisu ispunjeni:\n");
             }
-            Console.WriteLine("-------------------------------------------\n");
-            Console.WriteLine("Kriteriji koji nisu ispunjeni:\n");
+            
 
             var uvjeti = new List<(bool, string)>
             {
@@ -66,7 +67,18 @@ namespace c_sharp_net_frmwrk_h
             {
                 if (nijeIspunjeno)
                 {
-                    Console.WriteLine(poruka);
+                    if (poruka == "Kemija nije zadovoljila kriterij" && matfiz >= 180)
+                    {
+                        Console.WriteLine("info: Kemija nije zadovoljila ali je upis dozvoljen radi ukupnog zbroja bodova matematike i fizike");
+                    }
+                    else if(poruka == "Nemate zbroj bodova matematike i fizike veći ili jednak 140")
+                    {
+                        Console.WriteLine("Info: Niste zadovoljili ukupan zbroj bodova iz matematike i fizike, ali na temelju ukupnog broja ste zadovoljili kriterij za upis");
+                    }
+                    else
+                    {
+                        Console.WriteLine(poruka);
+                    }              
                 }
             }
 
