@@ -97,6 +97,12 @@ namespace c_sharp_net_frmwrk_h
                     case "17":
                         Zadatak17.nizovi();
                         break;
+                    case "18":
+                        Zadatak18.arryListe();
+                        break;
+                    case "19":
+                        Zadatak19.petlje();
+                        break;
                     case "z1":
                         Zadaca1.IzracunDoGodine();
                         break;
