@@ -15,7 +15,7 @@ namespace c_sharp_net_frmwrk_h
             while (x < 30)
             {
                 Console.WriteLine(x);
-                x+=5;
+                x += 5;
             }
 
             int y = 50;
@@ -26,5 +26,11 @@ namespace c_sharp_net_frmwrk_h
                 y -= 5;
             }
         }
+
+
+
+
+
+
     }
 }

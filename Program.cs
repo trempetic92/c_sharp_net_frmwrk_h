@@ -103,6 +103,27 @@ namespace c_sharp_net_frmwrk_h
                     case "19":
                         Zadatak19.petlje();
                         break;
+                    case "20":
+                        Zadatak20.zadatak20();
+                        break;
+                    case "21":
+                        Zadatak21.zadatak21();
+                        break;
+                    case "22":
+                        Zadatak22.zadatak22();
+                        break;
+                    case "23":
+                        Zadatak23.zadatak23();
+                        break;
+                    case "24":
+                        Zadatak24.zadatak24();
+                        break;
+                    case "25":
+                        Zadatak25.zadatak25();
+                        break;
+                    case "26":
+                        Zadatak26.zadatak26();
+                        break;
                     case "z1":
                         Zadaca1.IzracunDoGodine();
                         break;
@@ -117,6 +138,9 @@ namespace c_sharp_net_frmwrk_h
                         break;
                     case "z5":
                         Zadaca5.zadaca5();
+                        break;
+                    case "z6":
+                        Zadaca6.zadaca6();
                         break;
                     case "0":
                         nastavi = false;

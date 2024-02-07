@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Zadaca5.cs" />
+    <Compile Include="Zadaca6.cs" />
     <Compile Include="Zadatak15.cs" />
     <Compile Include="Zadaca4.cs" />
     <Compile Include="Zadatak10.cs" />
@@ -55,6 +56,13 @@
     <Compile Include="Zadatak17.cs" />
     <Compile Include="Zadatak18.cs" />
     <Compile Include="Zadatak19.cs" />
+    <Compile Include="Zadatak20.cs" />
+    <Compile Include="Zadatak21.cs" />
+    <Compile Include="Zadatak22.cs" />
+    <Compile Include="Zadatak23.cs" />
+    <Compile Include="Zadatak24.cs" />
+    <Compile Include="Zadatak25.cs" />
+    <Compile Include="Zadatak26.cs" />
     <Compile Include="Zadatak4.cs" />
     <Compile Include="Zadatak2.cs" />
     <Compile Include="Zadatak8.cs" />
